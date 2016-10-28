@@ -1927,7 +1927,7 @@ struct BurnDriver BurnDrvStratof = {
 	"stratof", NULL, NULL, NULL, "1991",
 	"Raiga - Strato Fighter (US)\0", NULL, "Tecmo", "Miscellaneous",
 	L"\u96F7\u7259 Strato Fighter (US)\0", NULL, NULL, NULL,
-	BDF_GAME_WORKING, 2, HARDWARE_MISC_POST90S, GBF_HORSHOOT, 0,
+	BDF_GAME_WORKING | BDF_HISCORE_SUPPORTED, 2, HARDWARE_MISC_POST90S, GBF_HORSHOOT, 0,
 	NULL, stratofRomInfo, stratofRomName, NULL, NULL, RaigaInputInfo, RaigaDIPInfo,
 	stratofInit, DrvExit, DrvFrame, DrvDraw, DrvScan, &DrvRecalc, 0x1000,
 	256, 224, 4, 3
