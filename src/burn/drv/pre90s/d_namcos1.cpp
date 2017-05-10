@@ -2639,7 +2639,7 @@ struct BurnDriver BurnDrvPacmania = {
 	"pacmania", NULL, NULL, NULL, "1987",
 	"Pac-Mania\0", NULL, "Namco", "System 1",
 	NULL, NULL, NULL, NULL,
-	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_ORIENTATION_FLIPPED, 2, HARDWARE_MISC_PRE90S, GBF_MAZE, 0,
+	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_ORIENTATION_FLIPPED | BDF_HISCORE_SUPPORTED, 2, HARDWARE_MISC_PRE90S, GBF_MAZE, 0,
 	NULL, pacmaniaRomInfo, pacmaniaRomName, NULL, NULL, DrvInputInfo, PacmaniaDIPInfo,
 	PacmaniaInit, DrvExit, DrvFrame, DrvDraw, DrvScan, &DrvRecalc, 0x2000,
 	224, 288, 3, 4
